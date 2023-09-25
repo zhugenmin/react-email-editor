@@ -60,3 +60,22 @@ code {
 .dashboard-header-subtitle:hover {
   background-color: #3b82f6;
 }
+
+.dashboard-header-feature {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.dashboard-header-language {
+  color: #fff;
+  font-size: 14px;
+}
+
+.dashboard-header-language span {
+  cursor: pointer;
+}
+
+.dashboard-header-language span:hover {
+  text-decoration: underline;
+}
